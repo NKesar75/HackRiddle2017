@@ -24,5 +24,6 @@
         <activity android:name=".Home" />
         <activity android:name=".search"></activity>
     </application>
+    //soitwillcomebacc
 
 </manifest>
