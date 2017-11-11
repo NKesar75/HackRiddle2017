@@ -3,4 +3,14 @@
     <string name="Failed">Failed.</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+
+    <string-array name="animaltypearray">
+        <item> barnyard </item>
+        <item> bird </item>
+        <item> cat </item>
+        <item> dog </item>
+        <item> horse </item>
+        <item> reptile </item>
+        <item> smallfurry </item>
+    </string-array>
 </resources>
