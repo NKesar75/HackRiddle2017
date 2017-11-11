@@ -33,15 +33,89 @@
                 android:textAlignment="center" />
 
             <CheckBox
-                android:id="@+id/Animal_Type"
+                android:id="@+id/Animal_Type_CB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animal Type" />
 
             <Spinner
-                android:id="@+id/Animal_Type"
+                android:id="@+id/Animal_Type_SP"
                 android:layout_width="match_parent"
                 android:layout_height="37dp" />
+
+            <CheckBox
+                android:id="@+id/Gender_CB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender" />
+
+            <Spinner
+                android:id="@+id/Gender_SP"
+                android:layout_width="match_parent"
+                android:layout_height="38dp" />
+
+            <CheckBox
+                android:id="@+id/Age_CB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Age" />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="39dp" />
+
+            <CheckBox
+                android:id="@+id/Size_CB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIze" />
+
+            <Spinner
+                android:id="@+id/SIZE_SP"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <CheckBox
+                android:id="@+id/Location_CB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/CAS_RB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CITY AND STATE" />
+
+                <RadioButton
+                    android:id="@+id/ZIPCODE_RB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ZIpcode" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/Zipcode_TXT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="ZipCode"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/Location_Txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="City and State"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
 
         </LinearLayout>
     </ScrollView>
