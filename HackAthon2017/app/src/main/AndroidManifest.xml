@@ -29,6 +29,10 @@
 
         <activity android:name=".Favorites"></activity>
         <activity android:name=".PetDescription" />
+<<<<<<< HEAD
+=======
+        <activity android:name=".Home" />
+>>>>>>> parent of d2a1875... Merge branch 'master' of https://github.com/Hector7500/Hackathon2017
     </application>
 
 </manifest>

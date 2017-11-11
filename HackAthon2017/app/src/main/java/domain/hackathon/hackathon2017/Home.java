@@ -1,5 +1,6 @@
 package domain.hackathon.hackathon2017;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v4.view.GravityCompat;
@@ -42,10 +43,18 @@ public class Home extends AppCompatActivity
     private DrawerLayout draw;
     private ActionBarDrawerToggle toggle;
 
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Home extends AppCompatActivity {
+
+>>>>>>> parent of d2a1875... Merge branch 'master' of https://github.com/Hector7500/Hackathon2017
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+<<<<<<< HEAD
 
         stubGrid = (ViewStub) findViewById(R.id.stub_grid);
         stubGrid.inflate();
@@ -130,4 +139,7 @@ public class Home extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+=======
+    }
+>>>>>>> parent of d2a1875... Merge branch 'master' of https://github.com/Hector7500/Hackathon2017
 }
