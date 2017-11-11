@@ -22,6 +22,7 @@
         </activity>
         <activity android:name=".PetDescription" />
         <activity android:name=".Home" />
+        <activity android:name=".search"></activity>
     </application>
 
 </manifest>
