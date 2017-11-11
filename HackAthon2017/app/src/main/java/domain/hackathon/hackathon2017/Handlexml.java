@@ -20,7 +20,8 @@ public class Handlexml {
     private String gender = "";
     private String Size = "";
     private String image = "";
-    private boolean hasbeencalled = false;
+    private boolean hasbeencalledbreed = false;
+    private boolean hasbeencalledimage = false;
     private String urlstring = null;
     XmlPullParserFactory xmlfactoryobj;
     public volatile boolean parsingcomplete = true;
@@ -69,7 +70,7 @@ public class Handlexml {
                                 animalname = text;
                                 break;
                             case "breed":
-                                if (hasbeencalled == false) {
+                                if (hasbeencalledbreed == false) {
                                     breed += text; //text;
                                     break;
                                 } else {
@@ -84,6 +85,11 @@ public class Handlexml {
                                 break;
                             case "animal":
                                 animaltype = text;
+                                break;
+                            case "photo id=\"1\" size=\"pnt\"":
+                                if (hasbeencalledimage == false) {
+                                    image = text;
+                                }
                                 break;
 
                         }

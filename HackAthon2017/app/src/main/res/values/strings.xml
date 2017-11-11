@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">HackAthon2017</string>
+
+    <string-array name="animaltypearray">
+        <item> barnyard </item>
+        <item> bird </item>
+        <item> cat </item>
+        <item> dog </item>
+        <item> horse </item>
+        <item> reptile </item>
+        <item> smallfurry </item>
+    </string-array>
 </resources>
