@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "664123583557",
+    "firebase_url": "https://hack-riddle.firebaseio.com",
+    "project_id": "hack-riddle",
+    "storage_bucket": "hack-riddle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664123583557:android:586c7d52f8be7dfa",
+        "android_client_info": {
+          "package_name": "domain.hackathon.hackathon2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664123583557-i8bq5cvelrhs7eforn2hpo0u9miastb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDATUpHxRlccI094Sii1mdOGCYuVwUOgQw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
