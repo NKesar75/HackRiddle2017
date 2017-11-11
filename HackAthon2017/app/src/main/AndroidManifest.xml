@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-
     package="domain.hackathon.hackathon2017">
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <supports-screens
-        android:largeScreens="true"
-        android:normalScreens="true"
-        android:smallScreens="true"
-        android:xlargeScreens="true" />
 
     <application
         android:allowBackup="true"
@@ -26,14 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Favorites"></activity>
-        <activity android:name=".PetDescription" />
-<<<<<<< HEAD
-=======
-        <activity android:name=".Home" />
->>>>>>> parent of d2a1875... Merge branch 'master' of https://github.com/Hector7500/Hackathon2017
+        <activity android:name=".PetDescription"></activity>
+        <activity android:name=".ShelterInfo"></activity>
     </application>
-    //soitwillcomebacc
 
 </manifest>

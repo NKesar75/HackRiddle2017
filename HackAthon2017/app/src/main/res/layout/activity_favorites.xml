@@ -12,12 +12,6 @@
     android:paddingRight="10dp"
     android:paddingTop="10dp">
 
-    <ViewStub
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/stub_grid"
-        android:inflatedId="@+id/showlayout"
-        android:layout="@layout/my_gridview"/>
 
     <FrameLayout
         android:id="@+id/fragment"
