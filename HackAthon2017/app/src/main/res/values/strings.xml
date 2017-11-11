@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">HackAthon2017</string>
+    <string name="Failed">Failed.</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 
     <string-array name="animaltypearray">
         <item> barnyard </item>
